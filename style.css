@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(31, 77%, 52%);  
+}
+
+.column1 img{
+    width:70px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-left: 10px;
+    color: white;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 60px;
+    color: white;
+}
+ .column1 button{ font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    margin-bottom: 40px;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    color: hsl(31, 77%, 52%);
+    margin-left: 38px;  
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  hsl(184, 100%, 22%);
+}
+
+.column2 img{
+    width:70px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.column2 button{ font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    margin-bottom: 40px;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    color: hsl(184, 100%, 22%);
+    margin-left: 38px;
+}
+
+.column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(179, 100%, 13%);}
+
+.column3 img{
+    width:70px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-left: 10px;
+
+}
+.column3 button{ font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    margin-bottom: 40px;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    color: hsl(179, 100%, 13%);
+    margin-left: 38px;  
+}
+
+
+@media screen and (min-width:373px){
+    body{
+        background-color: white;
+    }
+    .container{display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+      
+        
+       
+    }
+
+}
+
+
+
